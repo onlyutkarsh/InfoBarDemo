@@ -6,31 +6,31 @@
   },
   "assetFiles": [
     {
-      "pathOnDisk": "#{IMAGEPATH}#\\images\\custom-command-item.png",
+      "pathOnDisk": "images\\custom-command-item.png",
       "targetPath": "images/custom-command-item.png"
     },
     {
-      "pathOnDisk": "#{IMAGEPATH}#\\images\\extension-dev-workload.png",
+      "pathOnDisk": "images\\extension-dev-workload.png",
       "targetPath": "images/extension-dev-workload.png"
     },
     {
-      "pathOnDisk": "#{IMAGEPATH}#\\images\\image-catalog-reference.png",
+      "pathOnDisk": "images\\image-catalog-reference.png",
       "targetPath": "images/image-catalog-reference.png"
     },
     {
-      "pathOnDisk": "#{IMAGEPATH}#\\images\\new-project.png",
+      "pathOnDisk": "images\\new-project.png",
       "targetPath": "images/new-project.png"
     },
     {
-      "pathOnDisk": "#{IMAGEPATH}#\\images\\tools-menu-item.png",
+      "pathOnDisk": "images\\tools-menu-item.png",
       "targetPath": "images/tools-menu-item.png"
     },
     {
-      "pathOnDisk": "#{IMAGEPATH}#\\images\\vs-infobar-actions.png",
+      "pathOnDisk": "images\\vs-infobar-actions.png",
       "targetPath": "images/vs-infobar-actions.png"
     },
     {
-      "pathOnDisk": "#{IMAGEPATH}#\\images\\vs-infobar.png",
+      "pathOnDisk": "images\\vs-infobar.png",
       "targetPath": "images/vs-infobar.png"
     }
   ],
