@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json.schemastore.org/vsix-publish",
+  "categories": [ "build", "coding" ],
+  "identity": {
+    "internalName": "InfoBarDemo"
+  },
+  "assetFiles": [
+    {
+      "pathOnDisk": "#{IMAGEPATH}#\\images\\custom-command-item.png",
+      "targetPath": "images/custom-command-item.png"
+    },
+    {
+      "pathOnDisk": "#{IMAGEPATH}#\\images\\extension-dev-workload.png",
+      "targetPath": "images/extension-dev-workload.png"
+    },
+    {
+      "pathOnDisk": "#{IMAGEPATH}#\\images\\image-catalog-reference.png",
+      "targetPath": "images/image-catalog-reference.png"
+    },
+    {
+      "pathOnDisk": "#{IMAGEPATH}#\\images\\new-project.png",
+      "targetPath": "images/new-project.png"
+    },
+    {
+      "pathOnDisk": "#{IMAGEPATH}#\\images\\tools-menu-item.png",
+      "targetPath": "images/tools-menu-item.png"
+    },
+    {
+      "pathOnDisk": "#{IMAGEPATH}#\\images\\vs-infobar-actions.png",
+      "targetPath": "images/vs-infobar-actions.png"
+    },
+    {
+      "pathOnDisk": "#{IMAGEPATH}#\\images\\vs-infobar.png",
+      "targetPath": "images/vs-infobar.png"
+    }
+  ],
+  "overview": "readme.md",
+  "priceCategory": "free",
+  "publisher": "onlyutkarsh",
+  "private": false,
+  "qna": true,
+  "repo": "https://github.com/onlyutkarsh/InfoBarDemo"
+}
