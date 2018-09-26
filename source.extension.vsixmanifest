@@ -1,21 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
-	<Metadata>
-		<Identity Id="InfoBarDemo.D450E7CB-FC1E-47CC-974C-F0ED802D1764" Version="1.0" Language="en-US" Publisher="Utkarsh Shigihalli" />
-		<DisplayName>InfoBarDemo</DisplayName>
-		<Description xml:space="preserve">Wondering how Visual Studio displays important notifications on top of editor? Do you want to integrate notifications in your extension? This is demo extension to show how we can show notifications on top of the Visual Studio editor in Visual Studio 2017 using Visual Studio SDK. Not only we will create the notification using InfoBar, but we will also see how to add actions so that user's can click and take action.</Description>
-	</Metadata>
-	<Installation>
-		<InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0]" />
-	</Installation>
-	<Dependencies>
-		<Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
-		<Dependency Id="Microsoft.VisualStudio.MPF.15.0" DisplayName="Visual Studio MPF 15.0" d:Source="Installed" Version="[15.0]" />
-	</Dependencies>
-	<Prerequisites>
-		<Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
-	</Prerequisites>
-	<Assets>
-		<Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
-	</Assets>
+    <Metadata>
+        <Identity Id="InfoBarDemo.D450E7CB-FC1E-47CC-974C-F0ED802D1764" Version="1.0" Language="en-US" Publisher="Utkarsh Shigihalli" />
+        <DisplayName>InfoBarDemo</DisplayName>
+        <Description xml:space="preserve">This is demo extension to show how we can show notifications on top of the Visual Studio editor in Visual Studio 2017 using Visual Studio SDK. Not only we will create the notification using InfoBar, but we will also see how to add actions so that user's can click and take action.</Description>
+        <MoreInfo>https://www.visualstudiogeeks.com/extensions/how-to-show-notifications-inside-visual-studio-2017</MoreInfo>
+        <Icon>images\vs-infobar.png</Icon>
+        <PreviewImage>images\vs-infobar.png</PreviewImage>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0]" />
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+        <Dependency Id="Microsoft.VisualStudio.MPF.15.0" DisplayName="Visual Studio MPF 15.0" d:Source="Installed" Version="[15.0]" />
+    </Dependencies>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+    </Assets>
 </PackageManifest>

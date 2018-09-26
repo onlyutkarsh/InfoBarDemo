@@ -78,7 +78,10 @@
     <Content Include="images\new-project.png" />
     <Content Include="images\tools-menu-item.png" />
     <Content Include="images\vs-infobar-actions.png" />
-    <Content Include="images\vs-infobar.png" />
+    <Content Include="images\vs-infobar.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="index.html" />
     <VSCTCompile Include="ShowNotificationPackage.vsct">
       <ResourceName>Menus.ctmenu</ResourceName>
