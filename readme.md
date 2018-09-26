@@ -3,8 +3,9 @@ Wondering how Visual Studio displays important notifications on top of editor? D
 
 Originally blogged at: https://www.visualstudiogeeks.com/extensions/how-to-show-notifications-inside-visual-studio-2017
 
-
 ![Notifications](images/vs-infobar.png)
+
+![Build](https://dev.azure.com/onlyutkarsh/VSExtensions/_apis/build/status/InfoBarDemo-UI-CI?branchName=master)
 
 ## Prerequisites
 
